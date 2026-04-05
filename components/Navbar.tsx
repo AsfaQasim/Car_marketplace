@@ -9,7 +9,7 @@ export default function Navbar() {
 
       <div className="bg-[#00083D] text-white py-4 px-10">
         <nav className="max-w-[1400px] mx-auto flex justify-between items-center text-[13px] font-[500] uppercase tracking-[0.1em]">
-          <a href="#" className="hover:text-[#14D39A] transition-colors">Home</a>
+          <Link href="/" className="hover:text-[#14D39A] transition-colors">Home</Link>
          
 
           <Link
