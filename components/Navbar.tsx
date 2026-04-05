@@ -19,8 +19,8 @@ export default function Navbar() {
             Finance Calculator
           </Link>
           <Link href="/type-of-finance" className="hover:text-[#14D39A] transition-colors">Types of Finance</Link>
-          <a href="#" className="hover:text-[#14D39A] transition-colors">Help & Advice</a>
-          <a href="#" className="hover:text-[#14D39A] transition-colors">Contact</a>
+          <Link href="/faqs" className="hover:text-[#14D39A] transition-colors">Help & Advice</Link>
+          <Link href="/contact" className="hover:text-[#14D39A] transition-colors">Contact</Link>
         </nav>
       </div>
 

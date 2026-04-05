@@ -52,7 +52,7 @@ export default function HeroSection() {
         {/* THE JUMPING CAR */}
         <motion.div
           animate={{ 
-            y: [0, -20, 0], // Upar niche "Jump" effect
+            y: [0, -20, 0], 
           }}
           transition={{ 
             duration: 3, 
