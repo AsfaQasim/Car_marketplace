@@ -23,18 +23,17 @@ export default function Home() {
         <TrustBadges />
         <StepCards />
         <Calculator />
-        <Testimonials/>
-        <Partners/>
-        <WhyChoose/>
-        <ComparisonTable/>
-        <Callback/>
-        <FAQSection/>
-        <Finance/>
-        <Footer/>
-        
+        <Testimonials />
+        <Partners />
+        <WhyChoose />
+        <ComparisonTable />
+        <Callback />
+        <FAQSection />
+        <Finance />
+
+
       </div>
 
-      <div className="h-[800px] bg-white"></div>
     </main>
   );
 }
