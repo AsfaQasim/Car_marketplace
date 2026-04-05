@@ -73,7 +73,7 @@ export default function Testimonials() {
               animate={{ 
                 opacity: 1, 
                 scale: 1,
-                y: [0, -15, 0] // Floating Jump
+                y: [0, -15, 0] 
               }}
               transition={{ 
                 y: { duration: 3, repeat: Infinity, ease: "easeInOut" },

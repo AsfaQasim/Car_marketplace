@@ -30,20 +30,19 @@ export default function StepCards() {
           <motion.div
             key={index}
             whileHover={{ y: -8 }}
-            // Background is lighter blue (#F8FAFF)
+         
             className="bg-[#F8FAFF] p-8 md:p-10 rounded-[35px] shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center border border-blue-50"
           >
-            {/* Icon Container - Small and Rounded (Perfect Copy) */}
+            
             <div className="mb-6 w-16 h-16 bg-white rounded-2xl shadow-inner flex items-center justify-center border border-gray-100">
               {step.icon}
             </div>
 
-            {/* Title - Smaller than 28px, tracking is very tight (Pixel Perfection) */}
+        
             <h3 className="text-[20px] md:text-[23px] font-[1000] text-[#0D1B3E] leading-tight mb-4 uppercase tracking-tighter">
               {step.title}
             </h3>
 
-            {/* Description - Semi-bold and Slightly Smaller (Good Visual Balance) */}
             <p className="text-[14px] md:text-[15px] text-slate-500 font-semibold leading-relaxed max-w-[310px]">
               {step.description}
             </p>

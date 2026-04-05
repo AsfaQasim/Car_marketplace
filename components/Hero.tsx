@@ -24,7 +24,6 @@ export default function HeroSection() {
           No impact on your credit score
         </p>
 
-        {/* INTERACTIVE BUTTON (Video wala effect) */}
         <motion.button 
           whileHover={{ scale: 1.05, backgroundColor: "#11b886" }}
           whileTap={{ scale: 0.95 }}
@@ -36,7 +35,7 @@ export default function HeroSection() {
 
       {/* RIGHT SIDE: Jumping/Floating Car */}
       <div className="relative mt-12 md:mt-0 flex justify-center">
-        {/* Shadow Effect (Car ke niche jo jump ke sath choti-badi hogi) */}
+        
         <motion.div 
           animate={{ 
             scale: [1, 0.8, 1],
