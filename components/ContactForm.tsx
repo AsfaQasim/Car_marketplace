@@ -73,11 +73,7 @@ export default function ContactForm() {
         </div>
 
         
-        <p className="mt-12 text-center text-[#0D1B3E] opacity-50 text-[14px] md:text-[16px] font-medium leading-relaxed max-w-4xl mx-auto">
-          All finance is subject to status and income. Applicants must be 18 or over. We look to find the best 
-          rate from our panel of lenders and will offer you the best deal that you’re eligible for. We don’t 
-          charge a fee for our service, but we do earn a commission. This does not influence the interest rate.
-        </p>
+    
       </div>
     </section>
   );
