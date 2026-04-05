@@ -1,9 +1,14 @@
 // app/page.tsx
 import Calculator from '@/components/Calculator';
 import ComparisonTable from '@/components/ComparisonTable';
+import FAQSection from '@/components/FAQSection';
+import Finance from '@/components/finance';
+import Footer from '@/components/Footer';
 import HeroSection from '@/components/Hero';
+import Callback from '@/components/HowItWorks';
 import Navbar from '@/components/Navbar';
 import Partners from '@/components/Partners';
+
 import StepCards from '@/components/StepCards';
 import Testimonials from '@/components/Testimonials';
 import TrustBadges from '@/components/TrustBadges';
@@ -22,8 +27,12 @@ export default function Home() {
         <Partners/>
         <WhyChoose/>
         <ComparisonTable/>
+        <Callback/>
+        <FAQSection/>
+        <Finance/>
+        <Footer/>
+        
       </div>
-
 
       <div className="h-[800px] bg-white"></div>
     </main>

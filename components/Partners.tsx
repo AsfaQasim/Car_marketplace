@@ -44,6 +44,7 @@ export default function Partners() {
               ease: "linear",
             },
           }}
+          
         >
           {partnerLogos.map((logo, index) => (
             <div key={index} className="flex-shrink-0  opacity-70 hover:grayscale-0  transition-all duration-300">
