@@ -11,6 +11,7 @@ import Partners from '@/components/Partners';
 
 import StepCards from '@/components/StepCards';
 import Testimonials from '@/components/Testimonials';
+import CarBenefits from '@/components/TrustBadges';
 import TrustBadges from '@/components/TrustBadges';
 import WhyChoose from '@/components/WhyChoose';
 
@@ -20,7 +21,7 @@ export default function Home() {
       <Navbar />
       <div className="pt-[140px] md:pt-[160px]">
         <HeroSection />
-        <TrustBadges />
+        <TrustBadges/>
         <StepCards />
         <Calculator />
         <Testimonials />
