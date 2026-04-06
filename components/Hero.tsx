@@ -13,13 +13,16 @@ export default function HeroSection() {
         transition={{ duration: 0.8 }}
         className="max-w-xl"
       >
-        <h1 className="text-5xl md:text-7xl font-extrabold text-[#0D1B3E] leading-[1.1] mb-6">
-          Car <span className="relative">
+      
+        <h1 className="text-5xl md:text-7xl font-extrabold text-[#0D1B3E] leading-[1.1] mb-6 relative z-0">
+          Car <span className="relative inline-block">
             Finance
-            <span className="absolute bottom-2 left-0 w-full h-3 bg-[#14D39A]/20 -z-10"></span>
+            
+            <span className="absolute bottom-2 left-0 w-full h-4 bg-[#14D39A] opacity-20 -z-10"></span>
           </span> . <br />
           Made Simple.
         </h1>
+        
         <p className="text-xl text-gray-500 font-semibold mb-10">
           No impact on your credit score
         </p>
@@ -36,6 +39,7 @@ export default function HeroSection() {
       {/* RIGHT SIDE: Jumping/Floating Car */}
       <div className="relative mt-12 md:mt-0 flex justify-center">
         
+        {/* SHADOW ANIMATION */}
         <motion.div 
           animate={{ 
             scale: [1, 0.8, 1],
@@ -59,7 +63,7 @@ export default function HeroSection() {
             repeat: Infinity, 
             ease: "easeInOut" 
           }}
-          className="relative z-10"
+          className="relative z-10" 
         >
           <Image 
             src="/hero-car.jpg" 

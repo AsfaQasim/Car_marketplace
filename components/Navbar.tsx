@@ -58,7 +58,7 @@ export default function Navbar() {
               <div className="bg-black p-2 rounded-md">
                 <Mail size={18} className="text-white" />
               </div>
-              <a href="mailto:sales@exclusivecarfinance.com" className="text-[#00083D] font-bold text-[14px]">
+              <a href="mailto:sales@exclusivecarfinance.com" className="text-[#00083D] font-bold text-center  text-[14px]">
                 sales@exclusivecarfinance.com
               </a>
             </div>
