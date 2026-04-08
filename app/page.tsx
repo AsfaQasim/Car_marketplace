@@ -1,4 +1,5 @@
 // app/page.tsx
+import AiConsultant from '@/components/AiConsultant';
 import Calculator from '@/components/Calculator';
 import ComparisonTable from '@/components/ComparisonTable';
 import FAQSection from '@/components/FAQSection';
@@ -24,6 +25,7 @@ export default function Home() {
         <TrustBadges/>
         <StepCards />
         <Calculator />
+        <AiConsultant/>
         <Testimonials />
         <Partners />
         <WhyChoose />
